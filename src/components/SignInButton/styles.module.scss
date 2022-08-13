@@ -12,6 +12,13 @@
     color: var(--white);
     font-weight: bold;
 
+    img {
+        width: 2em;
+        height: 2em;
+        border-radius: 50%;
+        border: 1.8px solid #04d361;
+    }
+
     svg {
         width: 20px;
         height: 20px;
