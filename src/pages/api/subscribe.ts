@@ -17,7 +17,6 @@ type User = {
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
     if (req.method === "POST") {
-
         // creating stripe client
         const session = await getSession({ req });
 
